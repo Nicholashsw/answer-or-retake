@@ -1,0 +1,12 @@
+# data never goes in the repo
+data/*
+!data/README.md
+*.parquet
+*.npy
+*.npz
+*.jpg
+*.zip
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.venv/

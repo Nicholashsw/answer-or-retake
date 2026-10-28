@@ -1,0 +1,28 @@
+what,proposal,recomputed,match
+B1 risk,0.613,0.6129,True
+B2 AURC,0.373,0.3734,True
+B2 cov@10%,0.067,0.0671,True
+B2 risk@10%,0.134,0.1345,True
+B2 cov@20%,0.261,0.2614,True
+B2 risk@20%,0.266,0.2657,True
+photo_only AURC,0.445,0.4448,True
+photo_only cov@10%,0.007,0.0074,True
+photo_only risk@10%,0.156,0.1562,True
+photo_question AURC,0.372,0.3722,True
+photo_question cov@10%,0.078,0.0778,True
+photo_question risk@10%,0.146,0.1458,True
+full AURC,0.317,0.3171,True
+full cov@1%,0.029,0.0292,True
+full risk@1%,0.024,0.0238,True
+full cov@10%,0.215,0.2146,True
+full risk@10%,0.119,0.1187,True
+full cov@20%,0.39,0.3897,True
+full risk@20%,0.237,0.2371,True
+B3 coverage,0.423,0.423,True
+B3 risk,0.385,0.3848,True
+flaw macro F1,0.57,0.5651,True
+flaw blur F1,0.76,0.7598,True
+flaw obstruction F1,0.39,0.3883,True
+flaw blurry photos,1379.0,1379.0,True
+flaw 2+ flaws share,0.34,0.3423,True
+medicine B1 risk,0.747,0.7475,True

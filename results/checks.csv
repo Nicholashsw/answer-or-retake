@@ -1,0 +1,18 @@
+group,check,result,detail
+splits,no photo in two splits,PASS,
+splits,"train and ourval come from VizWiz train, test is VizWiz val",PASS,
+splits,"sizes 17,445 / 3,078 / 4,319",PASS,
+splits,parquet rows follow splits/*.txt,PASS,
+labels,train: VQA accuracy recomputes from the 10 answers,PASS,
+labels,train: correct = (VQA accuracy >= 0.5),PASS,
+labels,ourval: VQA accuracy recomputes from the 10 answers,PASS,
+labels,ourval: correct = (VQA accuracy >= 0.5),PASS,
+labels,test: VQA accuracy recomputes from the 10 answers,PASS,
+labels,test: correct = (VQA accuracy >= 0.5),PASS,
+labels,99 medicine questions,PASS,
+score files,test_scores.csv rows and labels = features_test,PASS,
+score files,ourval_scores.csv rows and labels = features_ourval,PASS,
+score files,flaw_probs_test.csv rows = features_test,PASS,
+score files,B2 score = sum of answer log-probs,PASS,
+thresholds,ourval thresholds reproduce every saved answer/abstain decision,PASS,0 rows differ
+proposal numbers,27 of 27 proposal numbers recomputed,PASS,
